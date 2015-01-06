@@ -1,0 +1,108 @@
+/* ------------------ Page ----------------- */
+
+body {
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#logo {
+    position: relative;
+    display: inline-block;
+    border: 2px groove black;
+    float: left;
+    margin-right: -5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 53px;
+    width: 80px;
+}
+
+/* ---------------- Header ------------------- */
+
+.header {
+    clear: both;
+    height: 100px;
+    border: 2px groove black;
+}
+
+.header h1 {
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+}
+
+.header #profiel {
+    text-align: right;
+    position: relative;
+    top: -50px;
+    right: 5px;
+    font-size: 20px;
+}
+
+.header #home {
+    text-align: left;
+    position: relative;
+    top: 50px;
+    left: 5px;
+    font-size: 20px;
+}
+
+/* ------------------ Search Bar ----------------- */
+
+.search {
+    display: inline-block;
+    position: relative;
+    border: 2px groove black;
+    margin: 5px 0px 0px 0px;
+    width: 95%;
+    left: 88px; 
+    clear: right;
+}
+
+.search #search {
+    position: relative;
+    display: inline-block;
+    border: 1px groove black;
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+    left: 10px;
+}
+
+/* ----------------- Body ------------------ */
+
+.body {
+    height: 700px;
+    width: 95%;
+    margin: 5px 0px 5px 0px;
+    border: 2px groove black;
+    float: right;
+}
+
+.body #hit {
+    border: 1px groove gray;
+    padding: 55px;
+    margin: 8px 5px 8px 5px;
+}
+
+/* ---------------- Nav Bar ------------------- */
+
+.nav {
+    display: inline-block;
+    height: 700px;
+    width: 80px;
+    margin: 5px 0px 0px 0px;
+    border: 2px groove black;
+    float: left;
+    text-align: center;
+}
+
+/* ---------------- Bottom ------------------- */
+
+.bottom {
+    border: 2px groove black;
+    clear: both;
+    text-align: center;
+}
