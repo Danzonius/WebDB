@@ -103,7 +103,7 @@ nav {
 \* ------------------------------ */
 
 main {
-    background-image: url(handshake-business.jpg);
+    /* background-image: url(handshake-business.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,7 +123,7 @@ main {
 
 .vacature .info {
     height: 100px;
-    background:rgba(250,250,250,0.5);
+    background:rgba(250,250,250,0.7);
 }
 
 .vacature .info #categorie {
@@ -175,7 +175,6 @@ main {
 
 .beschrijving p {
     position: relative;
-    background: rgba(238, 244, 248, 0.9);
     bottom: 5px;
     padding: 5px;
     border-radius: 5px;
@@ -200,7 +199,7 @@ main {
 }
 
 .beschrijving div {
-    background: rgba(250, 250, 250, 0.5);
+    background: rgba(250, 250, 250, 0.8);
     border-radius: 5px;
     padding: 0px 5px 0px 5px;
 }
